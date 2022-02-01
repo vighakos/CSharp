@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "speckar", "speckar\speckar.csproj", "{9DF2022E-8BC4-4A5D-87E7-7942F90212DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF2022E-8BC4-4A5D-87E7-7942F90212DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF2022E-8BC4-4A5D-87E7-7942F90212DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF2022E-8BC4-4A5D-87E7-7942F90212DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF2022E-8BC4-4A5D-87E7-7942F90212DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17112220-4E19-4D15-8612-DC81AE882D74}
+	EndGlobalSection
+EndGlobal

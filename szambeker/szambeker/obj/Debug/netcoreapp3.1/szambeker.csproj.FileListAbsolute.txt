@@ -1,0 +1,14 @@
+H:\113szft\asztalialk\konzol\szambeker\szambeker\bin\Debug\netcoreapp3.1\szambeker.exe
+H:\113szft\asztalialk\konzol\szambeker\szambeker\bin\Debug\netcoreapp3.1\szambeker.deps.json
+H:\113szft\asztalialk\konzol\szambeker\szambeker\bin\Debug\netcoreapp3.1\szambeker.runtimeconfig.json
+H:\113szft\asztalialk\konzol\szambeker\szambeker\bin\Debug\netcoreapp3.1\szambeker.runtimeconfig.dev.json
+H:\113szft\asztalialk\konzol\szambeker\szambeker\bin\Debug\netcoreapp3.1\szambeker.dll
+H:\113szft\asztalialk\konzol\szambeker\szambeker\bin\Debug\netcoreapp3.1\szambeker.pdb
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.csproj.AssemblyReference.cache
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.GeneratedMSBuildEditorConfig.editorconfig
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.AssemblyInfoInputs.cache
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.AssemblyInfo.cs
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.dll
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.pdb
+H:\113szft\asztalialk\konzol\szambeker\szambeker\obj\Debug\netcoreapp3.1\szambeker.genruntimeconfig.cache

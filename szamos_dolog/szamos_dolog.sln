@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szamos_dolog", "szamos_dolog\szamos_dolog.csproj", "{1600F51A-E560-40E9-BCA9-8F7EC2F82A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1600F51A-E560-40E9-BCA9-8F7EC2F82A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1600F51A-E560-40E9-BCA9-8F7EC2F82A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1600F51A-E560-40E9-BCA9-8F7EC2F82A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1600F51A-E560-40E9-BCA9-8F7EC2F82A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3774D9DC-E645-404C-90D5-F5A95DE8E958}
+	EndGlobalSection
+EndGlobal

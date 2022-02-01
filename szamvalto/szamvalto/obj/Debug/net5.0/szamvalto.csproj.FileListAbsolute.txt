@@ -1,0 +1,16 @@
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\szamvalto.exe
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\szamvalto.deps.json
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\szamvalto.runtimeconfig.json
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\szamvalto.runtimeconfig.dev.json
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\szamvalto.dll
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\ref\szamvalto.dll
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\bin\Debug\net5.0\szamvalto.pdb
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.GeneratedMSBuildEditorConfig.editorconfig
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.AssemblyInfoInputs.cache
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.AssemblyInfo.cs
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.dll
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\ref\szamvalto.dll
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.pdb
+H:\113szft\asztalialk\konzol\szamvalto\szamvalto\obj\Debug\net5.0\szamvalto.genruntimeconfig.cache

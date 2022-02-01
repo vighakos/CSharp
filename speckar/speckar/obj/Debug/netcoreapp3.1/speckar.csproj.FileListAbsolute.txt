@@ -1,0 +1,13 @@
+H:\113szft\asztalialk\konzol\speckar\speckar\bin\Debug\netcoreapp3.1\speckar.exe
+H:\113szft\asztalialk\konzol\speckar\speckar\bin\Debug\netcoreapp3.1\speckar.deps.json
+H:\113szft\asztalialk\konzol\speckar\speckar\bin\Debug\netcoreapp3.1\speckar.runtimeconfig.json
+H:\113szft\asztalialk\konzol\speckar\speckar\bin\Debug\netcoreapp3.1\speckar.runtimeconfig.dev.json
+H:\113szft\asztalialk\konzol\speckar\speckar\bin\Debug\netcoreapp3.1\speckar.dll
+H:\113szft\asztalialk\konzol\speckar\speckar\bin\Debug\netcoreapp3.1\speckar.pdb
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.AssemblyInfoInputs.cache
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.AssemblyInfo.cs
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.dll
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.pdb
+H:\113szft\asztalialk\konzol\speckar\speckar\obj\Debug\netcoreapp3.1\speckar.genruntimeconfig.cache

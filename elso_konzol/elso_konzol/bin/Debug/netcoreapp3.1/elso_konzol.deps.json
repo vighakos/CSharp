@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "elso_konzol/1.0.0": {
+        "runtime": {
+          "elso_konzol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "elso_konzol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

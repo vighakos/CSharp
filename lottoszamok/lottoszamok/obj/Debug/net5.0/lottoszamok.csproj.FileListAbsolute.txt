@@ -1,0 +1,16 @@
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\lottoszamok.exe
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\lottoszamok.deps.json
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\lottoszamok.runtimeconfig.json
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\lottoszamok.runtimeconfig.dev.json
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\lottoszamok.dll
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\ref\lottoszamok.dll
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\bin\Debug\net5.0\lottoszamok.pdb
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.GeneratedMSBuildEditorConfig.editorconfig
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.AssemblyInfoInputs.cache
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.AssemblyInfo.cs
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.dll
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\ref\lottoszamok.dll
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.pdb
+H:\113szft\asztalialk\konzol\lottoszamok\lottoszamok\obj\Debug\net5.0\lottoszamok.genruntimeconfig.cache
