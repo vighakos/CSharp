@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\bin\Debug\fajlbe3.exe.config
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\bin\Debug\fajlbe3.exe
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\bin\Debug\fajlbe3.pdb
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\obj\Debug\fajlbe3.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\obj\Debug\fajlbe3.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\obj\Debug\fajlbe3.exe
+H:\113szft\asztalialk\konzolok\fajlbe3\fajlbe3\obj\Debug\fajlbe3.pdb
