@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fajlbe_csv1", "fajlbe_csv1\fajlbe_csv1.csproj", "{342E128D-084E-4E74-AE03-BA5E1241FA68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342E128D-084E-4E74-AE03-BA5E1241FA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342E128D-084E-4E74-AE03-BA5E1241FA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342E128D-084E-4E74-AE03-BA5E1241FA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342E128D-084E-4E74-AE03-BA5E1241FA68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E9F3CE1-4BE2-4A79-8ECF-5CFA03CE45E3}
+	EndGlobalSection
+EndGlobal

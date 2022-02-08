@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\bin\Debug\fajlbe_csv1.exe.config
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\bin\Debug\fajlbe_csv1.exe
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\bin\Debug\fajlbe_csv1.pdb
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\obj\Debug\fajlbe_csv1.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\obj\Debug\fajlbe_csv1.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\obj\Debug\fajlbe_csv1.exe
+H:\113szft\asztalialk\konzolok\fajlbe_csv1\fajlbe_csv1\obj\Debug\fajlbe_csv1.pdb
