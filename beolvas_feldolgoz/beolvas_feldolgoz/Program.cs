@@ -28,7 +28,22 @@ namespace beolvas_feldolgoz
             //név bekér, megnéz létezik-e, milyen eredmény
             NegyedikFeladat();
 
+            //eredemény bekér, megkeres legközelebbi, kiír versenyző
+            OtodikFeladat();
+
             Console.ReadKey();
+        }
+
+        private static void OtodikFeladat()
+        {
+            Console.Write("5. feladat: Adj meg egy eredményt: ");
+            double beker = Convert.ToDouble(Console.ReadLine());
+
+            for (int i = 0; i < eredmenyek.Count; i++)
+            {
+
+            }
+
         }
 
         private static void NegyedikFeladat()
