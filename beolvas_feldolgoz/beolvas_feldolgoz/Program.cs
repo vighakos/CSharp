@@ -39,10 +39,34 @@ namespace beolvas_feldolgoz
             Console.Write("5. feladat: Adj meg egy eredményt: ");
             double beker = Convert.ToDouble(Console.ReadLine());
 
+            double kulonbseg = eredmenyek[0];
+            int index = 0;
+
             for (int i = 0; i < eredmenyek.Count; i++)
             {
 
+                if (eredmenyek[i] > beker)
+                {
+                    if (Math.Abs(eredmenyek[i] - beker) < kulonbseg)
+                    {
+                        kulonbseg = Math.Abs(eredmenyek[i] - beker);
+                        index = i;
+                        //Console.WriteLine(kulonbseg);
+                    }
+                }
+                else
+                {
+                    if (Math.Abs(beker - eredmenyek[i]) < kulonbseg)
+                    {
+                        kulonbseg = Math.Abs(eredmenyek[i] - beker);
+                        index = i;
+                        //Console.WriteLine(kulonbseg);
+                    }
+                }
             }
+
+            Console.WriteLine($"\tLegközelebbi pontszám: {nevek[index]}, {eredmenyek[index]}");
+            OtodikFeladat();
 
         }
 
@@ -72,8 +96,30 @@ namespace beolvas_feldolgoz
         private static void HarmadikFeladat()
         {
             eredmenyek.Sort();
+			List<double> eredmenyek_rendez = new List<double>();
+            
+			for (int i = 0; i < eredmenyek.Count; i++)
+            {
+                eredmenyek_rendez.Add(eredmenyek[i]);
+            }
 
-            Console.WriteLine($"{eredmenyek[641]}, {eredmenyek[640]}, {eredmenyek[639]}");
+            eredmenyek_rendez.Sort();
+
+            Console.WriteLine("3. feladat: A 3 legeredményesebb versenyző:");
+            int szamlalo = 1;
+            for (int i = 0; i < eredmenyek.Count; i++)
+            {
+                if (eredmenyek[i] == eredmenyek_rendez[eredmenyek_rendez.Count - szamlalo])
+                {
+                    Console.WriteLine($"\t {szamlalo}. legjobb versenyző: {nevek[i]}, {eredmenyek[i]}");
+                    i = 0;
+                    szamlalo++;
+                    if (szamlalo > 3)
+                    {
+                        return;
+                    }
+                }
+            }
         }
 
         private static void MasodikFeladat()
