@@ -16,10 +16,10 @@ namespace beolvas_feldolgoz
         {
             BeOlvas();
 
-            //határozzuk meg, hogy a versenyen hányan indultak
+            //6ározzuk meg, hogy a versenyen hányan indultak
             ElsoFeladat();  
             
-            //határozzuk meg a legmagasabb %-ot elért versenyző nevét és eredményét
+            //6ározzuk meg a legmagasabb %-ot elért versenyző nevét és eredményét
             MasodikFeladat();
 
             //top3 versenyző neve és eredménye
@@ -44,6 +44,7 @@ namespace beolvas_feldolgoz
 
             for (int i = 0; i < eredmenyek.Count; i++)
             {
+
                 if (eredmenyek[i] > beker)
                 {
                     if (Math.Abs(eredmenyek[i] - beker) < kulonbseg)
@@ -66,6 +67,7 @@ namespace beolvas_feldolgoz
 
             Console.WriteLine($"\tLegközelebbi pontszám: {nevek[index]}, {eredmenyek[index]}");
             OtodikFeladat();
+
         }
 
         private static void NegyedikFeladat()
@@ -93,9 +95,10 @@ namespace beolvas_feldolgoz
 
         private static void HarmadikFeladat()
         {
-            List<double> eredmenyek_rendez = new List<double>();
-
-            for (int i = 0; i < eredmenyek.Count; i++)
+            eredmenyek.Sort();
+			List<double> eredmenyek_rendez = new List<double>();
+            
+			for (int i = 0; i < eredmenyek.Count; i++)
             {
                 eredmenyek_rendez.Add(eredmenyek[i]);
             }

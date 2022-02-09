@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\bin\Debug\fajlba_ir3_folytonos.exe.config
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\bin\Debug\fajlba_ir3_folytonos.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\bin\Debug\fajlba_ir3_folytonos.pdb
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\obj\Debug\fajlba_ir3_folytonos.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\obj\Debug\fajlba_ir3_folytonos.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\obj\Debug\fajlba_ir3_folytonos.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir3_folytonos\fajlba_ir3_folytonos\obj\Debug\fajlba_ir3_folytonos.pdb
