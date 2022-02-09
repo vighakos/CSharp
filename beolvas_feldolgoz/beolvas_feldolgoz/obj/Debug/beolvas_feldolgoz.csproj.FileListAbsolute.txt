@@ -5,3 +5,10 @@ H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beo
 H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.csproj.CoreCompileInputs.cache
 H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.exe
 H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.pdb
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\bin\Debug\beolvas_feldolgoz.exe.config
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\bin\Debug\beolvas_feldolgoz.exe
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\bin\Debug\beolvas_feldolgoz.pdb
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.csprojAssemblyReference.cache
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.csproj.CoreCompileInputs.cache
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.exe
+X:\a\suli\113szft\prog\asztalialk\konzol\repo\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.pdb
