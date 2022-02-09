@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\bin\Debug\fajlba_ir.exe.config
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\bin\Debug\fajlba_ir.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\bin\Debug\fajlba_ir.pdb
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\obj\Debug\fajlba_ir.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\obj\Debug\fajlba_ir.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\obj\Debug\fajlba_ir.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir\fajlba_ir\obj\Debug\fajlba_ir.pdb

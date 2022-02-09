@@ -1,0 +1,6 @@
+H:\113szft\asztalialk\konzolok\fajlba_ir2\fajlba_ir2\bin\Debug\fajlba_ir2.exe.config
+H:\113szft\asztalialk\konzolok\fajlba_ir2\fajlba_ir2\bin\Debug\fajlba_ir2.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir2\fajlba_ir2\bin\Debug\fajlba_ir2.pdb
+H:\113szft\asztalialk\konzolok\fajlba_ir2\fajlba_ir2\obj\Debug\fajlba_ir2.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\fajlba_ir2\fajlba_ir2\obj\Debug\fajlba_ir2.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir2\fajlba_ir2\obj\Debug\fajlba_ir2.pdb
