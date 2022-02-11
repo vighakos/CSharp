@@ -44,7 +44,7 @@ namespace fajlba_ir_szojatek
             }
 
             string gondoltszo = szavak[szoindex];
-            Console.WriteLine($"A gondolt szó: {gondoltszo}");
+            //Console.WriteLine($"A gondolt szó: {gondoltszo}");
             Console.WriteLine();
 
             Tippeles(Beker(), gondoltszo);
