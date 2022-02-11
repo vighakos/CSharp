@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\beolvas_feldolgoz",
     "\\fajlba_ir_szojatek"
   ],
   "SelectedNode": "\\fajlba_ir_szojatek\\fajlba_ir_szojatek.sln",
+=======
+    "\\fajlba_ir_szojatek",
+    "\\fajlba_ir_szojatek\\fajlba_ir_szojatek"
+  ],
+  "SelectedNode": "\\fajlba_ir_szojatek\\fajlba_ir_szojatek\\Program.cs",
+>>>>>>> 520d7da956b94a679c83a616751af7c3dbd775e0
   "PreviewInSolutionExplorer": false
 }
