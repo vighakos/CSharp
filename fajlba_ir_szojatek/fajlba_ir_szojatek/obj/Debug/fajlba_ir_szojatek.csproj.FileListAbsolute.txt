@@ -5,3 +5,9 @@ X:\a\suli\113szft\prog\asztalialk\konzol\repo\fajlba_ir_szojatek\fajlba_ir_szoja
 X:\a\suli\113szft\prog\asztalialk\konzol\repo\fajlba_ir_szojatek\fajlba_ir_szojatek\obj\Debug\fajlba_ir_szojatek.csproj.CoreCompileInputs.cache
 X:\a\suli\113szft\prog\asztalialk\konzol\repo\fajlba_ir_szojatek\fajlba_ir_szojatek\obj\Debug\fajlba_ir_szojatek.exe
 X:\a\suli\113szft\prog\asztalialk\konzol\repo\fajlba_ir_szojatek\fajlba_ir_szojatek\obj\Debug\fajlba_ir_szojatek.pdb
+H:\113szft\asztalialk\konzolok\fajlba_ir_szojatek\fajlba_ir_szojatek\bin\Debug\fajlba_ir_szojatek.exe.config
+H:\113szft\asztalialk\konzolok\fajlba_ir_szojatek\fajlba_ir_szojatek\bin\Debug\fajlba_ir_szojatek.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir_szojatek\fajlba_ir_szojatek\bin\Debug\fajlba_ir_szojatek.pdb
+H:\113szft\asztalialk\konzolok\fajlba_ir_szojatek\fajlba_ir_szojatek\obj\Debug\fajlba_ir_szojatek.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\fajlba_ir_szojatek\fajlba_ir_szojatek\obj\Debug\fajlba_ir_szojatek.exe
+H:\113szft\asztalialk\konzolok\fajlba_ir_szojatek\fajlba_ir_szojatek\obj\Debug\fajlba_ir_szojatek.pdb

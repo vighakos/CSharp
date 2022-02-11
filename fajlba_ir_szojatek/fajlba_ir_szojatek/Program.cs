@@ -19,7 +19,7 @@ namespace fajlba_ir_szojatek
             // gép gondol egy szóra, 5 tipp van alapból 1700 szóra valamiért
             // kiír, hogy hány betű talált (jó hely, rossz hely, de van olyan betű, rossz betű)
             // statisztika kell (x. játék {szó} nyert/nem nyert), ne lehessen újra felhasználni a szavakat
-
+            Console.ForegroundColor = ConsoleColor.White;
             Beolvas();
             BeolvasSzavak();
             StatBeolvas();
@@ -49,6 +49,7 @@ namespace fajlba_ir_szojatek
 
             Tippeles(Beker(), gondoltszo);
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("--------------------------------");
             hasznalt_szavak.Add(gondoltszo);
             HasznaltszoKiir(gondoltszo);
@@ -77,6 +78,7 @@ namespace fajlba_ir_szojatek
             }
             catch (IOException)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Hiba a 'statisztika.txt' fájl írása közben");
             }
         }
@@ -93,15 +95,17 @@ namespace fajlba_ir_szojatek
             }
             catch (IOException)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Hiba a 'hasznaltszavak.txt' fájl írása közben");
             }
         }
 
         private static bool Tippeles(string tipp, string gondoltszo)
         {
-
+            Console.ForegroundColor = ConsoleColor.White;
             if (tipp == gondoltszo)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("\nTalált!");
                 Console.WriteLine();
                 talalt = true;
@@ -115,15 +119,18 @@ namespace fajlba_ir_szojatek
                     {
                         if (gondoltszo[i] == tipp[i])
                         {
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine($"{tipp[i]}: Jó betű, jó hely");
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.WriteLine($"{tipp[i]}: Jó betű, rossz helyen");
                         }
                     }
                     else
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"{tipp[i]}: Rossz betű");
                     }
                 }
@@ -132,6 +139,7 @@ namespace fajlba_ir_szojatek
 
                 if (tippek < 1)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\nElfogytak a tippek, vesztettél!");
                     Console.WriteLine($"A szó {gondoltszo} volt");
                     Console.WriteLine();
@@ -140,6 +148,7 @@ namespace fajlba_ir_szojatek
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine($"Tippek száma: {tippek}");
                     Console.WriteLine();
                     Tippeles(Beker(), gondoltszo);
@@ -150,6 +159,7 @@ namespace fajlba_ir_szojatek
 
         private static string Beker()
         {
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Tippelj: ");
             string tipp = Console.ReadLine();
             return tipp;
@@ -187,6 +197,7 @@ namespace fajlba_ir_szojatek
             }
             catch (IOException)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Hiba a 'szavak.txt' fájl olvasása közben");
             }
         }
