@@ -12,3 +12,4 @@ illő
 árat
 bükk
 sarj
+végű
