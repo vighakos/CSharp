@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\bin\Debug\osszesites.exe.config
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\bin\Debug\osszesites.exe
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\bin\Debug\osszesites.pdb
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\obj\Debug\osszesites.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\obj\Debug\osszesites.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\obj\Debug\osszesites.exe
+H:\113szft\asztalialk\konzolok\osszesites\osszesites\obj\Debug\osszesites.pdb

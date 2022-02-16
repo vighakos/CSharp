@@ -9,34 +9,42 @@ namespace osszesites
 {
     class Program
     {
+        static List<string> adatok = new List<string>();
         static void Main(string[] args)
         {
-            Beolvas();
+            int i = 0;
+            bool tovabb = true;
+            while (tovabb)
+            {
+                i++;
+                tovabb = Beolvas(i);
+            }
+            Console.WriteLine($"{i-1} állomány beolvasva, amelyben összesen {adatok.Count} elemet találtam");
 
             Console.ReadKey();
         }
 
-        private static void Beolvas()
+        private static bool Beolvas(int i)
         {
+            bool tovabb = true;
             try
             {
-                for (int i = 0; i < Int32.MaxValue; i++)
+                StreamReader be = new StreamReader($"{i}.csv");
+                while (!be.EndOfStream)
                 {
-                    if (File.Exists(i + ".txt"))
+                    string sor = be.ReadLine();
+                    for (int j = 0; j < sor.Split(';').Length; j++)
                     {
-                        StreamReader be = new StreamReader(i + ".txt");
-                        List<int> adatok = new List<int>();
-                        while (!be.EndOfStream)
-                        {
-                            adatok.Add(Convert.ToInt32(be.ReadLine()));
-                        }
+                        adatok.Add(sor.Split(';')[j]);
                     }
                 }
+                be.Close();
             }
             catch (IOException)
             {
-                
+                tovabb = false;
             }
+            return tovabb;
         }
     }
 }
