@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\classok2\classok2\bin\Debug\classok2.exe.config
+H:\113szft\asztalialk\konzolok\classok2\classok2\bin\Debug\classok2.exe
+H:\113szft\asztalialk\konzolok\classok2\classok2\bin\Debug\classok2.pdb
+H:\113szft\asztalialk\konzolok\classok2\classok2\obj\Debug\classok2.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\classok2\classok2\obj\Debug\classok2.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\classok2\classok2\obj\Debug\classok2.exe
+H:\113szft\asztalialk\konzolok\classok2\classok2\obj\Debug\classok2.pdb

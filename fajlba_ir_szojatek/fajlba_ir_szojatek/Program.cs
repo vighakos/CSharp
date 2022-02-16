@@ -12,11 +12,11 @@ namespace fajlba_ir_szojatek
         static List<string> hasznalt_szavak = new List<string>();
         static List<string> szavak = new List<string>();
         static List<string> statisztika_lista = new List<string>();
-        static int tippek = 10;
+        static int tippek = 5;
         static bool talalt = false;
         static void Main(string[] args)
         {
-            // gép gondol egy szóra, 5 tipp van alapból 1700 szóra valamiért
+            // gép gondol egy szóra, 5 tipp
             // kiír, hogy hány betű talált (jó hely, rossz hely, de van olyan betű, rossz betű)
             // statisztika kell (x. játék {szó} nyert/nem nyert), ne lehessen újra felhasználni a szavakat
             Console.ForegroundColor = ConsoleColor.White;
