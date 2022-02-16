@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace classok2
 {
@@ -11,6 +12,7 @@ namespace classok2
         static void Main(string[] args)
         {
             Cica macska1 = new Cica("Urambátyám");
+            Thread.Sleep(100);
             Cica macska2 = new Cica("Zsilip");
             Cica macska3 = new Cica("Hurkácska", 24.6, 2);
 

@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\bin\Debug\OOP_haromszogek.exe.config
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\bin\Debug\OOP_haromszogek.exe
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\bin\Debug\OOP_haromszogek.pdb
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\obj\Debug\OOP_haromszogek.csprojAssemblyReference.cache
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\obj\Debug\OOP_haromszogek.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\obj\Debug\OOP_haromszogek.exe
+H:\113szft\asztalialk\konzolok\OOP_haromszogek\OOP_haromszogek\obj\Debug\OOP_haromszogek.pdb
