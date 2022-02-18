@@ -31,7 +31,7 @@ namespace OOP_haromszogek
             Console.WriteLine(uj.Lehetseges() ? $"A háromszög kerülete: {uj.Kerulet()}" : "Nem lehet háromszög");
 
             /*
-            if (uj.Egyenese())
+            if (uj.Lehetseges())
             {
                 Console.WriteLine($"A háromszög kerülete: {uj.Kerulet()}");
             }
