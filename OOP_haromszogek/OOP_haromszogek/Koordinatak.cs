@@ -17,5 +17,7 @@ namespace OOP_haromszogek
             y = Convert.ToInt32(sor.Split(' ')[1]);
         }
 
+        public Koordinatak() { }
+
     }
 }
