@@ -28,8 +28,16 @@ namespace OOP_haromszogek
         {
             return a_oldal() + b_oldal() + c_oldal();
         }
+        public bool Lehetseges()
+        {
+            if (a_oldal() + b_oldal() > c_oldal() && a_oldal() + c_oldal() > b_oldal() && b_oldal() + c_oldal() > a_oldal())
+            {
+                return true;
+            }
 
-        
+            return false;
+        }
+
 
         public Haromszog(List<Koordinatak> koordinatak) 
         {

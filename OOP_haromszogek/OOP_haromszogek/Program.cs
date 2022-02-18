@@ -28,7 +28,18 @@ namespace OOP_haromszogek
 
             Haromszog uj = new Haromszog(koordinatak);
 
-            Console.WriteLine($"A háromszög kerülete: {uj.Kerulet()}");
+            Console.WriteLine(uj.Lehetseges() ? $"A háromszög kerülete: {uj.Kerulet()}" : "Nem lehet háromszög");
+
+            /*
+            if (uj.Egyenese())
+            {
+                Console.WriteLine($"A háromszög kerülete: {uj.Kerulet()}");
+            }
+            else
+            {
+                Console.WriteLine("Nem lehet háromszög");
+            }*/
+
 
 
             Console.ReadKey();

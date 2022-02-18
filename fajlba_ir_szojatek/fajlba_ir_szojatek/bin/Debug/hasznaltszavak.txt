@@ -12,4 +12,8 @@ illő
 árat
 bükk
 sarj
+<<<<<<< HEAD
+fuga
+=======
 végű
+>>>>>>> 4a5c03bbd2e3bce2816bb07fd55f01acdd377504
