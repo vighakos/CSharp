@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\fajlba_ir_szojatek\\fajlba_ir_szojatek",
-    "\\OOP_haromszogek"
+    "\\OOP_haromszogek",
+    "\\OOP_haromszogek\\OOP_haromszogek"
   ],
-  "SelectedNode": "\\OOP_haromszogek\\OOP_haromszogek.sln",
+  "SelectedNode": "\\OOP_haromszogek\\OOP_haromszogek\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
