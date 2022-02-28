@@ -18,17 +18,17 @@ namespace OOP_sim
         {
             Console.WriteLine("Mit szeretnél csinálni?\n\t1 - SIM létrehozása\n\t2 - Aktivitás lekérése\n\t3 - PIN módosítás\n\tENTER - Kilépés");
 
-            int valasz = Convert.ToInt32(Console.ReadLine());
+            string valasz = Console.ReadLine();
 
-            if (valasz == 1)
+            if (valasz == "1")
             {
                 LetrehozSIM();
             }
-            else if (valasz == 2)
+            else if (valasz == "2")
             {
                 Aktive();
             }
-            else if (valasz == 3)
+            else if (valasz == "3")
             {
                 PinModosit();
             }
@@ -40,10 +40,9 @@ namespace OOP_sim
 
         private static void PinModosit()
         {
-            string pin = "";
-            Console.Write("Add meg a telefonszámot: ");
+            Console.Write("Add meg a telefonszámot: 0600");
             string telszam = Console.ReadLine();
-
+            bool megvan = false;
             if (simek.Count > 0)
             {
                 if (telszam.Length != 7)
@@ -57,17 +56,112 @@ namespace OOP_sim
                     {
                         if (simek[i].Telszam.Equals(telszam))
                         {
-                            Console.Write("Add meg a PIN kódot: ");
-                            pin = Console.ReadLine();
-
+                            megvan = true;
+                            UjPin(simek[i]);
+                            break;
                         }
                     }
+                    if (!megvan)
+                    {
+                        Console.WriteLine("Ez a telefonszám nem létezik\n");
+                        PinModosit();
+                    }
                 }
-                
             }
-
             Console.WriteLine();
             Menu();
+        }
+
+        private static void UjPin(Sim sim)
+        {
+            string ujpin = "";
+            bool sikeres = false;
+            for (int i = 0; i < 4; i++)
+            {
+                Console.Write("Add meg a PIN kódot: ");
+                string pinbe = Console.ReadLine();
+
+                if (PinVizsgal(sim, pinbe))
+                {
+                    sikeres = true;
+                    UjPinModosit(sim);
+                    break;
+                }
+            }
+
+            if (sikeres)
+            {
+                Console.WriteLine($"{sim.Telszam} új PIN kódja: {sim.Pin}");
+            }
+            else
+            {
+                sim.Aktiv = false;
+                PukKeres(sim);
+            }
+        }
+
+        private static void UjPinModosit(Sim sim)
+        {
+            Console.Write("Add meg az új PIN kódot: ");
+            string ujpin = Console.ReadLine();
+
+            Console.Write("Add meg újra: ");
+            string ellenorzo = Console.ReadLine();
+            if (ellenorzo == ujpin)
+            {
+                sim.Pin = ujpin;
+            }
+            else
+            {
+                UjPinModosit(sim);
+            }
+        }
+
+        private static bool PinVizsgal(Sim sim, string pinbe)
+        {
+            if (pinbe == sim.Pin)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private static void PukKeres(Sim sim)
+        {
+            Console.Write("Add meg a PUK kódot! (0-val főmenübe kilép) ");
+            string pukbe = Console.ReadLine();
+            if (pukbe == sim.Puk)
+            {
+                Console.Write("Add meg az új PIN kódot: ");
+                string ujpin = Console.ReadLine();
+
+                Console.Write("Add meg újra: ");
+                string pinmegerosit = Console.ReadLine();
+
+                if (pinmegerosit == ujpin)
+                {
+                    sim.Pin = ujpin;
+                    Console.Write("Aktiváljam a telefonszámot? (i/n)");
+                    string valasz = Console.ReadLine();
+                    if (valasz == "i")
+                    {
+                        sim.Aktiv = true;
+                        return;
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+            }
+            else if (pukbe == "0")
+            {
+                Menu();
+            }
+            else
+            {
+                PukKeres(sim);
+            }
         }
 
         private static void Aktive()
@@ -95,13 +189,18 @@ namespace OOP_sim
             }
             Console.WriteLine();
             Menu();
-
         }
 
         private static void LetrehozSIM()
         {
             Console.Write("Add meg a telefonszámot (7 szám): 0600");
             string telszam = Console.ReadLine();
+
+            if (telszam.Length != 7)
+            {
+                Console.WriteLine("Nem 7 számot adtál meg!");
+                LetrehozSIM();
+            }
 
             if (simek.Count > 0)
             {
