@@ -9,9 +9,8 @@ namespace OOP_blackjack
     class Pakli
     {
         public List<Kartya> pakli { get; set; }
-        private string[] szin = new string[] { "Kör", "Káró", "Treff", "Pikk" };
-        private string[] figura = new string[]
-        {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
+        private string[] szin = new string[] { "♥", "♦", "♣", "♠" };
+        private string[] figura = new string[] {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
 
         public Pakli() 
         {
@@ -26,7 +25,5 @@ namespace OOP_blackjack
                 }
             }
         }
-
-
     }
 }

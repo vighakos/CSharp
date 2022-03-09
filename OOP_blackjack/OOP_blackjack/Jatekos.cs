@@ -10,6 +10,7 @@ namespace OOP_blackjack
     {
         public string Nev { get; set; }
         public List<Kartya> Lapok { get; set; }
+        public int Helyezes { get; set; }
 
         public Jatekos(string nev)
         {

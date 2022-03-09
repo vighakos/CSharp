@@ -37,7 +37,7 @@ namespace OOP_blackjack
 
         public void Kiir() 
         {
-            Console.WriteLine($"{Szin}\t{Figura}:\t{Ertek}");
+            Console.WriteLine($"{Szin} {Figura}:\t{Ertek}");
         }
     }
 }
