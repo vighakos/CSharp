@@ -15,7 +15,7 @@ namespace OOP_haromszogek
              * 3 pontjának koordinátáit tárolja, amelyek
              * megmondják a 3szög kerületét, területét, 
              * derékszögű-e
-             */
+            */
             
             List<Koordinatak> koordinatak = new List<Koordinatak>();
 
@@ -28,19 +28,26 @@ namespace OOP_haromszogek
 
             Haromszog uj = new Haromszog(koordinatak);
 
-            Console.WriteLine(uj.Lehetseges() ? $"A háromszög kerülete: {uj.Kerulet()}" : "Nem lehet háromszög");
 
-            /*
-            if (uj.Egyenese())
+            if (uj.Letezik())
             {
-                Console.WriteLine($"A háromszög kerülete: {uj.Kerulet()}");
+                Console.WriteLine("\nA háromszög adatai:");
+                Console.WriteLine("Oldalainak hossza:");
+                Console.WriteLine($"\ta - {uj.a_oldal()}");
+                Console.WriteLine($"\tb - {uj.b_oldal()}");
+                Console.WriteLine($"\tc - {uj.c_oldal()}");
+                Console.WriteLine($"\nKerülete: {uj.Kerulet()}");
+                Console.WriteLine($"Területe: {uj.Terulet()}");
+                Console.WriteLine($"\nSzögei:");
+                Console.WriteLine($"\talfa - {uj.alfa}");
+                Console.WriteLine($"\tbeta - {uj.beta}");
+                Console.WriteLine($"\tgamma - {uj.gamma}");
+
             }
             else
             {
-                Console.WriteLine("Nem lehet háromszög");
-            }*/
-
-
+                Console.WriteLine("Nem lehet 3szög");
+            }
 
             Console.ReadKey();
         }

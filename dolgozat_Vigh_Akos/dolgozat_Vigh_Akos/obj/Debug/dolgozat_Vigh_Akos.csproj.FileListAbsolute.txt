@@ -1,0 +1,7 @@
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\obj\Debug\dolgozat_Vigh_Akos.csproj.AssemblyReference.cache
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\obj\Debug\dolgozat_Vigh_Akos.csproj.CoreCompileInputs.cache
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\bin\Debug\dolgozat_Vigh_Akos.exe.config
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\bin\Debug\dolgozat_Vigh_Akos.exe
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\bin\Debug\dolgozat_Vigh_Akos.pdb
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\obj\Debug\dolgozat_Vigh_Akos.exe
+H:\113szft\asztalialk\konzolok\dolgozat_Vigh_Akos\dolgozat_Vigh_Akos\obj\Debug\dolgozat_Vigh_Akos.pdb
