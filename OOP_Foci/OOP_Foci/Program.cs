@@ -11,10 +11,10 @@ namespace OOP_Foci
         static List<Jatekos> jatekosok = Olvas.Beolvas("foci.txt");
         static void Main(string[] args)
         {
-            ElsoFeladat();
+            /*ElsoFeladat();
             MasodikFeladat();
             HarmadikFeladat();
-            OtodikFeladat();
+            OtodikFeladat();*/
             HatodikFeladat();
 
             Console.ReadKey();
@@ -23,24 +23,28 @@ namespace OOP_Foci
         private static void HatodikFeladat()
         {
             Console.WriteLine("\n6. feladat:");
+            Median();
+            Modusz();
+        }
 
-            Console.WriteLine($"\tMedián életkor: " + Median());
+        private static void Modusz()
+        {
+            int[] szamok = new int[jatekosok.Max(x => x.Eletkor) + 1];
+
             for (int i = 0; i < jatekosok.Count; i++)
             {
-                if (jatekosok[i].Eletkor == Convert.ToDouble(Median()))
+                for (int j = 0; j < szamok.Length; j++)
                 {
-                    Console.WriteLine($"\t{jatekosok[i].Nev}");
+                    if (jatekosok[i].Eletkor == j) szamok[j]++;
                 }
             }
-            Console.WriteLine($"\n\tMódusz életkor: " + Modus());
+
+            //for (int i = 0; i < szamok.Length; i++) Console.WriteLine($"\t{i} - {szamok[i]}");
+
+            Console.WriteLine($"\n\tMódusz életkor: {szamok.ToList().IndexOf(szamok.Max())}");
         }
 
-        private static string Modus()
-        {
-            return "";
-        }
-
-        private static string Median()
+        private static void Median()
         {
             RendezKor();
             double median = 0;
@@ -48,7 +52,15 @@ namespace OOP_Foci
             if (jatekosok.Count % 2 == 0) median = jatekosok[jatekosok.Count / 2].Eletkor;
             else median = (jatekosok[jatekosok.Count / 2].Eletkor + jatekosok[(jatekosok.Count / 2) + 1].Eletkor) / 2;
 
-            return median.ToString();
+            Console.WriteLine($"\tMedián életkor: {median}");
+
+            for (int i = 0; i < jatekosok.Count; i++)
+            {
+                if (jatekosok[i].Eletkor == median)
+                {
+                    Console.WriteLine($"\t{jatekosok[i].Nev}");
+                }
+            }
         }
 
         private static void RendezKor()
