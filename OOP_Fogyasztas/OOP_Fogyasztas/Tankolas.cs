@@ -22,5 +22,10 @@ namespace OOP_Fogyasztas
             Fizet = Convert.ToInt32(sor.Split(';')[3]);
             Azon = sor.Split(';')[4];
         }
+
+        public void Kiir()
+        {
+            Console.WriteLine($"\t{Datum.ToShortDateString()}, {Tavolsag}, {Mennyiseg}, {Fizet}, {Azon}");
+        }
     }
 }
