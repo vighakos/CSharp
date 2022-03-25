@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\OOP_Foci",
+    "\\OOP_Fogyasztas",
+    "\\OOP_Muzsika",
+    "\\OOP_Muzsika\\OOP_Muzsika",
     "\\OOP_sim"
   ],
+  "SelectedNode": "\\OOP_Muzsika\\OOP_Muzsika\\Feladat.cs",
   "PreviewInSolutionExplorer": false
 }
