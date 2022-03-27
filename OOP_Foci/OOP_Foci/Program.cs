@@ -11,10 +11,10 @@ namespace OOP_Foci
         static List<Jatekos> jatekosok = Olvas.Beolvas("foci.txt");
         static void Main(string[] args)
         {
-            /*ElsoFeladat();
+            ElsoFeladat();
             MasodikFeladat();
             HarmadikFeladat();
-            OtodikFeladat();*/
+            OtodikFeladat();
             HatodikFeladat();
 
             Console.ReadKey();
