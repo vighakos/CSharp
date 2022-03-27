@@ -139,7 +139,17 @@ namespace OOP_Muzsika
         public static void _6()
         {
             //HF: Írjuk ki, hány zene albumjában/címében szerepel a Remaster szó
+            int db = 0;
 
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Cim.ToLower().Contains("remaster") || list[i].Album.ToLower().Contains("remaster"))
+                {
+                    db++;
+                }
+            }
+
+            Console.WriteLine($"6. feladat: {db} db zenében szerepel a remaster szó");
         }
         private static string oszlopD(double szazalek)
         {
