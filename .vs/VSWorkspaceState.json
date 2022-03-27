@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\beolvas_feldolgoz",
-    "\\fajlba_ir_szojatek",
-    "\\fajlba_ir_szojatek\\fajlba_ir_szojatek",
     "\\OOP_Foci",
-    "\\OOP_haromszogek"
+    "\\OOP_Fogyasztas",
+    "\\OOP_Muzsika",
+    "\\OOP_Muzsika\\OOP_Muzsika",
+    "\\OOP_sim"
   ],
-  "SelectedNode": "\\OOP_Foci\\OOP_Foci.sln",
+  "SelectedNode": "\\OOP_Muzsika\\OOP_Muzsika\\Feladat.cs",
   "PreviewInSolutionExplorer": false
 }
