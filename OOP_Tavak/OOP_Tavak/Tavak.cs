@@ -12,6 +12,7 @@ namespace OOP_Tavak
         public string Tipus { get; set; }
         public double Terulet { get; set; }
         public int Vizgyujto { get; set; }
+        public bool Egyedi { get; set; }
 
         public Tavak(string sor)
         {
@@ -19,6 +20,12 @@ namespace OOP_Tavak
             Tipus = sor.Split('\t')[2] == "" ? "0" : sor.Split('\t')[2];
             Terulet = sor.Split('\t')[3] == "" ? 0 : Convert.ToDouble(sor.Split('\t')[3]);
             Vizgyujto = sor.Split('\t')[4] == "" ? 0 : Convert.ToInt32(sor.Split('\t')[4]);
+            Egyedi = true;
+        }
+
+        public void Kiir()
+        {
+            Console.WriteLine($"\t{Nev}");
         }
     }
 }
