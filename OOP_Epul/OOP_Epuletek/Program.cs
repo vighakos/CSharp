@@ -38,6 +38,20 @@ namespace OOP_Epuletek
             Console.WriteLine("8. feladat: Épületek száma városonként: ");
 
             varosok = varosok.OrderByDescending(x => x.Db).ToList();
+            /*
+            for (int i = 0; i < varosok.Count; i++)
+			{
+                for (int j = 0; j < varosok.Count; j++)
+			    {
+                    if (varosok[i].Db > varosok[j].Db)
+	                {
+                        Varos seged = varosok[i];
+                        varosok[i] = varosok[j];
+                        varosok[j] = seged;
+	                }
+			    }
+			}*/
+
             for (int i = 0; i < varosok.Count; i++)
             {
                 varosok[i].Kiir();
