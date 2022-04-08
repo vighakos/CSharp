@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\bin\Debug\OOP_sim.exe.config
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\bin\Debug\OOP_sim.exe
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\bin\Debug\OOP_sim.pdb
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\obj\Debug\OOP_sim.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\obj\Debug\OOP_sim.exe
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\obj\Debug\OOP_sim.pdb
-H:\113szft\asztalialk\konzolok\OOP_sim\OOP_sim\obj\Debug\OOP_sim.csprojAssemblyReference.cache

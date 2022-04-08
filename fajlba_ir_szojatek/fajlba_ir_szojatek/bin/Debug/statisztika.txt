@@ -1,6 +1,0 @@
-1. játék: sarj (Nyert)
-<<<<<<< HEAD
-2. játék: fuga (Nem nyert)
-=======
-2. játék: végű (Nem nyert)
->>>>>>> 4a5c03bbd2e3bce2816bb07fd55f01acdd377504

@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\classok1\classok1\bin\Debug\classok1.exe.config
-H:\113szft\asztalialk\konzolok\classok1\classok1\bin\Debug\classok1.exe
-H:\113szft\asztalialk\konzolok\classok1\classok1\bin\Debug\classok1.pdb
-H:\113szft\asztalialk\konzolok\classok1\classok1\obj\Debug\classok1.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzolok\classok1\classok1\obj\Debug\classok1.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\classok1\classok1\obj\Debug\classok1.exe
-H:\113szft\asztalialk\konzolok\classok1\classok1\obj\Debug\classok1.pdb

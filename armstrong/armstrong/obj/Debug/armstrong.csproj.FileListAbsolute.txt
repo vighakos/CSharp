@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzol\armstrong\armstrong\bin\Debug\armstrong.exe.config
-H:\113szft\asztalialk\konzol\armstrong\armstrong\bin\Debug\armstrong.exe
-H:\113szft\asztalialk\konzol\armstrong\armstrong\bin\Debug\armstrong.pdb
-H:\113szft\asztalialk\konzol\armstrong\armstrong\obj\Debug\armstrong.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzol\armstrong\armstrong\obj\Debug\armstrong.exe
-H:\113szft\asztalialk\konzol\armstrong\armstrong\obj\Debug\armstrong.pdb
-H:\113szft\asztalialk\konzol\armstrong\armstrong\obj\Debug\armstrong.csprojAssemblyReference.cache

@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\bin\Debug\primfelbont.exe.config
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\bin\Debug\primfelbont.exe
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\bin\Debug\primfelbont.pdb
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\obj\Debug\primfelbont.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\obj\Debug\primfelbont.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\obj\Debug\primfelbont.exe
-H:\113szft\asztalialk\konzol\primfelbont\primfelbont\obj\Debug\primfelbont.pdb

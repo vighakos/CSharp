@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\bin\Debug\oopKor.exe.config
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\bin\Debug\oopKor.exe
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\bin\Debug\oopKor.pdb
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\obj\Debug\oopKor.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\obj\Debug\oopKor.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\obj\Debug\oopKor.exe
-H:\113szft\asztalialk\konzolok\oopKor\oopKor\obj\Debug\oopKor.pdb

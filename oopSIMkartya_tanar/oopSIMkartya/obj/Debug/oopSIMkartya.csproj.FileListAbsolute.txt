@@ -1,7 +1,0 @@
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\bin\Debug\oopSIMkartya.exe.config
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\bin\Debug\oopSIMkartya.exe
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\bin\Debug\oopSIMkartya.pdb
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\obj\Debug\oopSIMkartya.csprojAssemblyReference.cache
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\obj\Debug\oopSIMkartya.csproj.CoreCompileInputs.cache
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\obj\Debug\oopSIMkartya.exe
-C:\Users\taskovicspeter\Desktop\oopSIMkartya\oopSIMkartya\obj\Debug\oopSIMkartya.pdb

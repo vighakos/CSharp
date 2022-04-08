@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\bin\Debug\kereses_tablazatban.exe.config
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\bin\Debug\kereses_tablazatban.exe
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\bin\Debug\kereses_tablazatban.pdb
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\obj\Debug\kereses_tablazatban.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\obj\Debug\kereses_tablazatban.exe
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\obj\Debug\kereses_tablazatban.pdb
-H:\113szft\asztalialk\konzolok\kereses_tablazatban\kereses_tablazatban\obj\Debug\kereses_tablazatban.csprojAssemblyReference.cache

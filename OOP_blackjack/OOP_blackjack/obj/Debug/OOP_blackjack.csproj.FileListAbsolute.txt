@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\bin\Debug\OOP_blackjack.exe.config
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\bin\Debug\OOP_blackjack.exe
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\bin\Debug\OOP_blackjack.pdb
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\obj\Debug\OOP_blackjack.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\obj\Debug\OOP_blackjack.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\obj\Debug\OOP_blackjack.exe
-H:\113szft\asztalialk\konzolok\OOP_blackjack\OOP_blackjack\obj\Debug\OOP_blackjack.pdb

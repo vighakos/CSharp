@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\bin\Debug\beolvas_feldolgoz.exe.config
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\bin\Debug\beolvas_feldolgoz.exe
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\bin\Debug\beolvas_feldolgoz.pdb
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.exe
-H:\113szft\asztalialk\konzolok\beolvas_feldolgoz\beolvas_feldolgoz\obj\Debug\beolvas_feldolgoz.pdb

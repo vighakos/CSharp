@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\bin\Debug\vighakos_20220202.exe.config
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\bin\Debug\vighakos_20220202.exe
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\bin\Debug\vighakos_20220202.pdb
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\obj\Debug\vighakos_20220202.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\obj\Debug\vighakos_20220202.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\obj\Debug\vighakos_20220202.exe
-H:\113szft\asztalialk\konzolok\vighakos_20220202\vighakos_20220202\obj\Debug\vighakos_20220202.pdb

@@ -1,7 +1,0 @@
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\bin\Debug\fajlbe.exe.config
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\bin\Debug\fajlbe.exe
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\bin\Debug\fajlbe.pdb
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\obj\Debug\fajlbe.csprojAssemblyReference.cache
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\obj\Debug\fajlbe.csproj.CoreCompileInputs.cache
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\obj\Debug\fajlbe.exe
-H:\113szft\asztalialk\konzolok\fajlbe\fajlbe\obj\Debug\fajlbe.pdb
