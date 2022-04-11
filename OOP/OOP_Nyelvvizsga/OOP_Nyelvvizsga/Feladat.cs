@@ -19,17 +19,57 @@ namespace OOP_Nyelvvizsga
             _4();
             _5();
             _6();
+            _7();
+            _8();
+        }
+
+        private void _8()
+        {//soroljuk fel a legalább egyszer bukott vizsgázókat
+            Console.WriteLine("\n8. feladat: legalább egyszer bukott vizsgázók\n");
+            List<string> bukottak = new List<string>();
+            for (int i = 0; i < jelentkezok.Count; i++)
+            {
+                for (int j = 0; j < jelentkezok.Count; j++)
+                {
+                    if (jelentkezok[i].Nev == jelentkezok[j].Nev &&
+                        j != i &&
+                        !bukottak.Contains(jelentkezok[i].Nev) &&
+                        jelentkezok[i].Vizsga.Nyelv == jelentkezok[j].Vizsga.Nyelv &&
+                        jelentkezok[i].Vizsga.Szint == jelentkezok[j].Vizsga.Szint)
+                    {
+                        bukottak.Add(jelentkezok[i].Nev);
+                    }
+                }
+            }
+
+            foreach (string item in bukottak)
+                Console.WriteLine($"\t{item}");
+        }
+
+        private void _7()
+        {//kérj be egy dátumot, (év, hó, nap),
+         //írd az azon a napon vizsgázok nevét, nyelvét, szintjét
+
+            Console.Write("\n7. feladat: Adj meg egy dátumot (yyyy.mm.dd.) ");
+            string beker = Console.ReadLine();
+
+            Console.WriteLine("\n\t{0, -20} {1, -7} {2}\n\t-----------------------------------", "Név", "Nyelv", "Szint");
+
+            foreach (Jelentkezo item in jelentkezok)
+                if (item.Vizsga.Datum.ToShortDateString().Contains(beker))
+                    Console.WriteLine($"\t{item.Nev, -20} {item.Vizsga.Nyelv, -7} {item.Vizsga.Szint}");
+
         }
 
         private void _6()
         {
             DateTime legkorabban = vizsgak[0].Datum;
 
-            for (int i = 0; i < vizsgak.Count; i++)
-                if (vizsgak[i].Datum.Hour < legkorabban.Hour)
-                    legkorabban = vizsgak[i].Datum;
+            foreach (Vizsga item in vizsgak)
+                if (item.Datum.Hour < legkorabban.Hour)
+                    legkorabban = item.Datum;
 
-            Console.WriteLine($"\n6. feladat: \n\t{legkorabban.ToShortDateString()} napon kezdődött legkorábban a vizsga, {legkorabban.Hour} órakor");
+            Console.WriteLine($"\n6. feladat: \n\t{legkorabban.ToShortDateString()} napon kezdődött legkorábban a vizsga, {legkorabban.Hour}:" + (legkorabban.Minute < 10 ? "0" + legkorabban.Minute : legkorabban.Minute.ToString()) + "-kor");
         }
 
         private void _5()
