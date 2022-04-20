@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Berek", "OOP_Berek\OOP_Berek.csproj", "{24D8F9BB-4F45-4422-9286-D0AC7602D81E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24D8F9BB-4F45-4422-9286-D0AC7602D81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D8F9BB-4F45-4422-9286-D0AC7602D81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D8F9BB-4F45-4422-9286-D0AC7602D81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D8F9BB-4F45-4422-9286-D0AC7602D81E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E85F650-5338-45B2-A5BE-7542C814EFB7}
+	EndGlobalSection
+EndGlobal
