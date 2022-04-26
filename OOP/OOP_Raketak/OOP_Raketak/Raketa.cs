@@ -28,5 +28,10 @@ namespace OOP_Raketak
             HasznosArany = Hasznos_teher / Suly;
             Terfogat = Math.PI * Math.Pow(Szelesseg / 2, 2) * Magassag;
         }
+
+        public Raketa()
+        {
+
+        }
     }
 }

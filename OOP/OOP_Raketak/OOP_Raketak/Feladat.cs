@@ -13,6 +13,7 @@ namespace OOP_Raketak
 
         public Feladat()
         {
+            /*
             _1();
             _2();
             _3();
@@ -20,11 +21,95 @@ namespace OOP_Raketak
             _5();
             _6();
             _7();
+            _8();*/
+            _9();
+            _10();
+        }
+
+        private void _10()
+        {
+            //melyik ügynökségnek volt a legtöbb idő eltelt első és utolsó között
+
+            TimeSpan leghosszabb = raketak[0].Utolso - raketak[1].Elso;
+            Raketa leghosszabbraketa = new Raketa();
+            foreach (Raketa item in raketak)
+            {
+                if (item.Utolso - item.Elso > leghosszabb)
+                {
+                    leghosszabb = item.Utolso - item.Elso;
+                    leghosszabbraketa = item;
+                }
+            }
+            Hivatal ugynokseg = hivatalok.Find(x => x.Orszag == leghosszabbraketa.Orszag);
+            Console.WriteLine($"\n10. feladat:\n\t{ugynokseg.Rovidites} - {leghosszabb}");
+        }
+
+        private void _9()
+        {
+            //mikor bocsájtották fel az első űrhajós rakétát?
+            List<Hivatal> urhajosok_hivatal = hivatalok.FindAll(x => x.Urhajosok == true).ToList();
+            List<Raketa> urhajosok_raketa = new List<Raketa>();
+
+            foreach (Hivatal hivatal in urhajosok_hivatal)
+            {
+                urhajosok_raketa = Keres_Urhajos(hivatal, urhajosok_raketa);
+            }
+
+            Console.WriteLine($"\n9. feladat:\n\tAz első űrhajós rakétát ekkor bocsájtották fel: {urhajosok_raketa.Find(x => x.Elso == urhajosok_raketa.Min(y => y.Elso)).Elso.ToShortDateString()}");
+        }
+
+        private List<Raketa> Keres_Urhajos(Hivatal hivatal, List<Raketa> urhajosok_raketa)
+        {
+            foreach (Raketa item in raketak)
+            {
+                if (item.Orszag == hivatal.Orszag)
+                {
+                    urhajosok_raketa.Add(item);
+                }
+            }
+            return urhajosok_raketa;
+        }
+
+        private void _8()
+        {
+            //dátum bekér, adott napon mely műholdaknak volt szolgálata,
+            //milyen tevékenységet végeztek
+
+            Console.Write("\n8. feladat: Adjon meg egy dátumot: ");
+            DateTime beker = Convert.ToDateTime(Console.ReadLine());
+
+            List<Raketa> megfelelo = raketak.FindAll(x => x.Elso < beker && x.Utolso > beker).ToList();
+
+            foreach (Raketa item in megfelelo)
+            {
+                Keres(megfelelo, item);
+            }
+        }
+
+        private void Keres(List<Raketa> megfelelo, Raketa item)
+        {
+            foreach (Hivatal hivatal in hivatalok)
+            {
+                if (item.Orszag == hivatal.Orszag)
+                {
+                    Console.WriteLine($"\t{item.Nev}, {item.Orszag} - " + "{0}{1}{2}{3}", 
+                        (hivatal.Urhajosok ? "Űrhajósok " : ""),
+                        (hivatal.Muhold ? "Műholdak " : ""),
+                        (hivatal.Urszonda ? "Űrszonda " : ""),
+                        (hivatal.Biologiai ? "Biológiai" : ""));
+                }
+            }
         }
 
         private void _7()
         {
-            
+            DateTime holdraszallas = Convert.ToDateTime("1969.07.20");
+            List<Raketa> holdra = raketak.FindAll(x => x.Elso < holdraszallas && x.Utolso > holdraszallas).ToList();
+
+            Console.WriteLine("\n7. feladat:");
+
+            foreach (Raketa item in holdra) 
+                Console.WriteLine($"\t{item.Nev}");
         }
 
         private void _6()
