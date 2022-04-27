@@ -30,13 +30,13 @@ namespace OOP_Raketak
         {
             //melyik ügynökségnek volt a legtöbb idő eltelt első és utolsó között
 
-            TimeSpan leghosszabb = raketak[0].Utolso - raketak[1].Elso;
-            Raketa leghosszabbraketa = new Raketa();
+            DateTime leghosszabb = Convert.ToDateTime(raketak[0].Utolso - raketak[1].Elso);
+            Raketa leghosszabbraketa = raketak[0];
             foreach (Raketa item in raketak)
             {
-                if (item.Utolso - item.Elso > leghosszabb)
+                if (Convert.ToDateTime(item.Utolso - item.Elso) > leghosszabb)
                 {
-                    leghosszabb = item.Utolso - item.Elso;
+                    leghosszabb = Convert.ToDateTime(item.Utolso - item.Elso);
                     leghosszabbraketa = item;
                 }
             }
