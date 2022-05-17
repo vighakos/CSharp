@@ -9,12 +9,30 @@ namespace OOP_Decoder
     class Program
     {
         static List<Karakter> karakterBank = Fajl.Beolvas("bank.txt");
+        static List<Karakter> dekodolando = Fajl.Beolvas("dekodol.txt");
         static void Main(string[] args)
         {
             _5();
             _6();
+            _9();
 
             Console.ReadKey();
+        }
+
+        private static void _9()
+        {
+            Console.WriteLine("9. feladat: Dekódolás");
+            foreach (Karakter item in dekodolando)
+            {
+                if (item.Felismer(karakterBank))
+                {
+                    Console.Write(item.Betu);
+                }
+                else
+                {
+                    Console.Write("?");
+                }
+            }
         }
 
         private static void _6()
@@ -44,9 +62,7 @@ namespace OOP_Decoder
             }
 
             if (!talalt)
-            {
                 Console.WriteLine("7. feladat: Nincs ilyen betű");
-            }
         }
 
         private static bool BetuEllenor(string betu)
