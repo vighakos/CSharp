@@ -25,13 +25,9 @@ namespace OOP_Decoder
             foreach (Karakter item in dekodolando)
             {
                 if (item.Felismer(karakterBank))
-                {
                     Console.Write(item.Betu);
-                }
                 else
-                {
                     Console.Write("?");
-                }
             }
         }
 
