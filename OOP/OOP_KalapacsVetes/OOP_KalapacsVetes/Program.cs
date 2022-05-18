@@ -50,7 +50,27 @@ namespace OOP_KalapacsVetes
 
         private static void _11()
         {
+            Dictionary<string, int> kodok = new Dictionary<string, int>();
 
+            foreach (Versenyzo item in versenyok)
+            {
+                kodok = Vizsgal(kodok, item);
+            }
+
+            foreach (KeyValuePair<string, int> item in kodok)
+            {
+                Console.WriteLine(item.Key + " " + item.Value);
+            }
+        }
+
+        private static Dictionary<string, int> Vizsgal(Dictionary<string, int> kodok, Versenyzo item)
+        {
+            if (kodok.ContainsKey(item.Kod))
+                kodok[item.Kod]++;
+            else
+                kodok.Add(item.Kod, 1);
+
+            return kodok;
         }
     }
 }
