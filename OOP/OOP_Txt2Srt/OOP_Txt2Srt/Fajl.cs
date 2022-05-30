@@ -31,12 +31,12 @@ namespace OOP_Txt2Srt
             return data;
         }
 
-        public static void Kiir(List<IdozitettFelirat> data, string filename)
+        public static void Kiir(List<IdozitettFelirat> data)
         {
             try
             {
                 int db = 1;
-                StreamWriter ki = new StreamWriter(filename);
+                StreamWriter ki = new StreamWriter("felirat.srt");
                 foreach (IdozitettFelirat item in data)
                 {
                     ki.WriteLine(db);

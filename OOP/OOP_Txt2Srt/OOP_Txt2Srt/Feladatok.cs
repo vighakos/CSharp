@@ -31,7 +31,7 @@ namespace OOP_Txt2Srt
 
         private static void _9()
         {
-            Fajl.Kiir(feliratok, "felirat.srt");
+            Fajl.Kiir(feliratok);
         }
     }
 }
