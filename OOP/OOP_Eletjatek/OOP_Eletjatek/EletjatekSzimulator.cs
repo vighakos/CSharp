@@ -24,7 +24,7 @@ namespace OOP_Eletjatek
         {
             Megjelenit();
             kovetkezoAllapot();
-            Thread.Sleep(100);
+            Thread.Sleep(200);
             Run();
         }
 

@@ -10,7 +10,7 @@ namespace OOP_Eletjatek
     {
         static void Main(string[] args)
         {
-            EletjatekSzimulator teszt = new EletjatekSzimulator(50, 100);
+            EletjatekSzimulator teszt = new EletjatekSzimulator(25, 50);
             Console.CursorVisible = false;
             teszt.Run();
 
