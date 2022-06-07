@@ -22,6 +22,7 @@ namespace OOP_Pontok
 
         private static void _3()
         {
+            List<int> indexek = new List<int>();
             for (int i = 0; i < pontok.Count; i++)
             {
                 string talalat = pontok[i].Sorszam.ToString() + ". ";
@@ -30,7 +31,12 @@ namespace OOP_Pontok
                     if (pontok[i].X == pontok[j].X &&
                         pontok[i].Y == pontok[j].Y)
                     {
-                        talalat += pontok[j].Sorszam.ToString() + ". ";
+                        if (!indexek.Contains(pontok[i].Sorszam))
+                        {
+                            talalat += pontok[j].Sorszam.ToString() + ". ";
+                            indexek.Add(pontok[i].Sorszam);
+                            indexek.Add(pontok[j].Sorszam);
+                        }
                     }
                 }
 
@@ -38,6 +44,7 @@ namespace OOP_Pontok
                 {
                     Console.WriteLine($"\tAz x = {pontok[i].X, 3} y = {pontok[i].Y, 3} koordinátán: {talalat}");
                 }
+                talalat = "";
             }
         }
     }
